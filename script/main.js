@@ -28,7 +28,7 @@ getLocation();
 
 loadDetail = () => {
   const xhr = new XMLHttpRequest();
-  const loc = 'https://api.openweathermap.org/data/2.5/forecast/daily?lat=' + latitude + '&lon=' + longitude + '&cnt=7&appid='+appId;
+  const loc = 'https://api.openweathermap.org/data/2.5/forecast/daily?lat=' + latitude + '&lon=' + longitude + '&cnt=7&appid='+'b07d7993dfacf35a565d24a2db3788c4';
   console.log(loc);
   xhr.open('GET', loc, true);
   xhr.onload = function () {
